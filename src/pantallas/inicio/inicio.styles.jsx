@@ -1,0 +1,77 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#1a1a2e",
+    padding: 20,
+  },
+  contentContainer: {
+    alignItems: "center",
+    paddingBottom: 40,
+  },
+  titulo: {
+    fontSize: 28,
+    fontWeight: "bold",
+    color: "#FFD700",
+    marginBottom: 15,
+    textShadowColor: "#FFA500",
+    textShadowOffset: { width: 2, height: 2 },
+    textShadowRadius: 10,
+    textAlign: "center",
+  },
+  subtitulo: {
+    fontSize: 18,
+    fontWeight: "600",
+    color: "#FFA500",
+    marginBottom: 8,
+    textAlign: "center",
+  },
+  descripcion: {
+    fontSize: 16,
+    color: "white",
+    marginBottom: 20,
+    textAlign: "center",
+    paddingHorizontal: 10,
+  },
+  imagen: {
+    width: 220,
+    height: 220,
+    marginBottom: 30,
+    borderRadius: 110,
+    borderWidth: 4,
+    borderColor: "#FFA500",
+    backgroundColor: "#0d0d1a",
+  },
+  botonContainer: {
+    width: 250,
+    borderRadius: 15,
+    overflow: "hidden",
+    marginTop: 10,
+    backgroundColor: "#FF6F00",
+    paddingVertical: 12,
+    alignItems: "center",
+    shadowColor: "#FFD700",
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.5,
+    shadowRadius: 10,
+    elevation: 6,
+  },
+  titulo1: {
+    fontSize: 20,
+    fontWeight: "bold",
+    color: "#fff",
+    textShadowColor: "#FFD700",
+    textShadowOffset: { width: 1, height: 1 },
+    textShadowRadius: 5,
+  },
+  titulo2: {
+    fontSize: 20,
+    fontWeight: "bold",
+    color: "#fff",
+    textShadowColor: "#FFA500",
+    textShadowOffset: { width: 1, height: 1 },
+    textShadowRadius: 5,
+  },
+});
+
